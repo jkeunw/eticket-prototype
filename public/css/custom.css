@@ -1,0 +1,119 @@
+.concert-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 900px;
+  font-size: 16pt;
+  margin-left: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+  
+}
+
+.wrap {
+  width: 900px;
+  float:none; 
+  margin:0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #adadad;
+}
+
+
+.info dt {
+  float: left;
+  width: 95px;
+  height: 22px;
+  font-size: 10pt;
+}
+
+.info dd {
+  width: 410px;
+  height: 22px;
+  font-size: 10pt;
+}
+
+#img-01 {
+  border-bottom: 1px solid gray;
+}
+
+.box {
+    height: 330px;
+    width: 200px;
+    padding-top:150px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+  }
+  
+  .bttn {
+    width: 200px;
+    padding-top: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    width: 35%;
+  }
+  
+  .side-col {
+    width: 400px;
+    float: left;
+  }
+  
+  .col-right {
+    display: inline;
+  }
+
+  .content-list {
+    padding: 0px 10px 10px 30px;
+    font-family: "Dotum";
+    font-size: 9pt;
+    font-weight: bold;
+  }
+  
+  #selection {   
+    background-color: #fdeeea;    
+    padding: 2px 270px 5px 20px;
+  }
+
+  .selection-delivery {
+    color: red;
+    font-family: "Dotum";
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 30px;
+  }
+
+  .selection-smart-ticket {
+    font-family: "Dotum";
+    font-size: 11px;
+    font-weight: bold;    
+  }
+
+  input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: radio;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+input[type=radio] {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+}
+
+.bttn-ticket {
+  width: 248px;
+  padding: 2px 8px 5px 10px;
+  background-color: rgb(54,54,54);
+}
+

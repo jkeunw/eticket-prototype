@@ -1,0 +1,83 @@
+.barcode {
+    padding: 10px 0px 10px 0px;
+    text-align: center;         
+}
+
+.event {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 242, 242);    
+}
+
+.event-title-img {    
+    text-align: center;
+}
+
+.event-title-img img {    
+    width: 100%;
+}
+
+.event-img img {        
+    width: 100%;
+}
+
+.wrap {
+    margin: 5px 5px 5px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    max-width: 400px;
+    width: 100%;    
+}
+
+body {
+    background-color: #dadada;
+}
+
+.centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-name {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+
+.event-date {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.event-time-turn {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.venue {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.seat {
+    margin: 10px;
+    padding: 10px;   
+    font-size: 22px;    
+    background-color: rgb(143, 27, 27); 
+    float: clear;
+}
+
+.seat-title {
+    font-size: 14px;
+    font-weight: bold; 
+    color: rgb(206, 206, 206);
+    text-align: center;      
+    padding: 16px 80px 16px 25px;
+    float: left;
+}
+

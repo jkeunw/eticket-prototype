@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>  
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>티켓예매</title>
+
+    <body>
+      <div class="container-fluid">         
+          <div class="row">
+            <div class="col" style="padding-right: 0">
+              <div class="row">
+                <img class="ticket-type-selection" src="./img/ticket-header.PNG" width=710px>
+                <img class="ticket-payment" src="./img/ticket-payment-header.PNG" width=710px style="display: none">
+                <img class="ticket-payment" src="./img/ticket-payment-content.PNG" width=710px style="display: none"> 
+              </div>
+              <span class="ticket-type-selection content-list">수령방법선택</span>
+              <span class="ticket-type-selection" id="selection">
+                <input type="radio" id="delivery" name="ticket-type" value=1 checked="checked">
+                <label for="delivery" class="selection-delivery">배송(4,000원)</label>
+                <input type="radio" id="smart-ticket" name="ticket-type" value=2>
+                <label for="smart-ticket" class="selection-smart-ticket">스마트티켓</label>
+              </span> 
+              <div class="row" style="margin-top: 20px; margin-left: 0; width: 710px">
+                <img class="ticket-type-selection delivery-checked" src="./img/ticket-delivery.PNG" width=710px>
+                <img class="ticket-type-selection smart-ticket-checked" src="./img/smart-ticket-user-data.PNG" width=710px style="display: none">
+                <p class="ticket-type-selection smart-ticket-checked content-list" style="margin-top: 20px; margin-bottom: 0; display: none">스마트티켓 이란?</p>
+                <img class="ticket-type-selection smart-ticket-checked" src="./img/smart-ticket-details.PNG" width=650px style="padding-left: 30px; display: none">                                          
+              </div> 
+            </div>  
+            <div class="col" style="padding: 0">
+                <img src="./img/twice-poster-title.PNG" width=248px>
+                <img class="delivery-checked" src="./img/ticket-side-cost.PNG" width=248px>
+                <img class="smart-ticket-checked" src="./img/smart-ticket-cost.PNG" width=248px style="display: none">
+                <div class="bttn-ticket">        
+                  <span><button type="button" class="ticket-type-selection btn btn-secondary" style="width: 112px">이전단계</button></span> 
+                  <span><button type="button" class="ticket-type-selection btn btn-primary" id="next" style="width: 112px">다음단계</button></span>
+                  <span><button type="button" class="ticket-payment btn btn-secondary" id="previous" style="width: 112px; display: none">이전단계</button></span>
+                  <span><button type="button" class="ticket-payment btn btn-primary" id="payment" style="width: 112px; display: none">결제하기</button></span>
+                </div>
+            </div>
+          </div>
+        </div>
+    </body>
+
+  </head>
