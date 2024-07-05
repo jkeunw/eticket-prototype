@@ -1,7 +1,7 @@
 const Caver = require('caver-js');
 const caver = new Caver('https://api.baobab.klaytn.net:8651/');
 const fs = require('fs');
-const PRIVATE_KEY = '0x40f2f9d44820a5615e3481dbb0cf8cbc561b53f0a5ae7cf1111a4c26b1d488dc'
+const PRIVATE_KEY = ''
 const account = caver.klay.accounts.wallet.add(PRIVATE_KEY); 
 
 function ticketToken(req, res) {
