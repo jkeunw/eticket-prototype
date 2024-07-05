@@ -7,7 +7,7 @@ const {ticketToken} = require('./routes/ticket-token');
 var db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "face9768*",
+  password: "",
   database: "smart-ticket"
 });
 
