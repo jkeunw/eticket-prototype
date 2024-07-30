@@ -13,7 +13,7 @@
     "caver-js": "^1.1.0",
     "connect-privkey-to-provider": "0.0.3",
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "mysql": "^2.17.1",
     "solc": "^0.5.10"
   }
